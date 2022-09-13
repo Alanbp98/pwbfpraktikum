@@ -21,3 +21,11 @@ Route::get('/', function () {
     return view('welcomeLL');
 });
 
+Route::get('/registrasi', function () {
+    return view('registrasi');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+

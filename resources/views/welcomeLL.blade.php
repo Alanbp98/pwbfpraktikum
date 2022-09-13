@@ -12,7 +12,7 @@
         <div class="container d-flex justify-content-between">
             <div class="logo">
                 <a href="welcomeLL.blade.php">
-                    <h1><img src="logo.png" alt="Legal Literacy" width="60"> Legal Literacy</h1></a>
+                    <h1><img src="assets\img\logo.png" alt="Legal Literacy" width="60"> Legal Literacy</h1></a>
             </div>
         
         <!-- navbar -->
@@ -36,7 +36,7 @@
     <section id="Home" class="clearfix">
         <div class="container aos-init-animate" data-aos="fade-up">
             <div class="home-image aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
-                <img src="home.png" alt class="img-fluid">
+                <img src="assets\img\home.png" alt class="img-fluid">
             </div>
             <div class="home-info aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
                 <h2>
@@ -117,8 +117,8 @@
             <div class="container aos-init aos-animate" data-aos="fade-up">
                 <header class="section-header">
                     <h3>Get Started</h3>
-                    <a><img src="registrasi.png" alt="registrasi" width="25%"></a>
-                    <a><img src="login.png" alt="login" width="39%"></a>
+                    <a><img src="assets\img\registrasi.png" alt="registrasi" width="25%"></a>
+                    <a><img src="assets\img\login.png" alt="login" width="39%"></a>
                 </header>
             </div>
         </section>
