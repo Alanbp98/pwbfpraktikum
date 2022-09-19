@@ -29,3 +29,11 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/hkmpublik', function () {
+    return view('hkmpublik');
+});
+
+Route::get('/hkmprivat', function () {
+    return view('hkmprivat');
+});
+

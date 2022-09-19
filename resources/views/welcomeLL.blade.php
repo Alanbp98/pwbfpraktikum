@@ -14,40 +14,40 @@
 
     <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container">
-          <a class="navbar-brand" href="#">Legal Literacy</a>
+          <a class="navbar-brand" href="jumbotron">Legal Literacy</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Category
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Hukum Publik</a></li>
-                  <li><a class="dropdown-item" href="#">Hukum Privat</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/hkmpublik">Hukum Publik</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/hkmprivat">Hukum Privat</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="#tentang">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                <a class="nav-link" href="#testimoni">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#kontak">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Login
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Login as Pengguna</a></li>
-                  <li><a class="dropdown-item" href="#">Login as Konsultan</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/login1">Login as Pengguna</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/login2">Login as Konsultan</a></li>
                 </ul>
               </li>
               {{-- <li class="nav-item">
@@ -60,14 +60,14 @@
     <!-- End Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron">
+    <section class="jumbotron" id="jumbotron">
         <div class="container text-xl-center mb-3">
             <div class="row justify-content-center">
                 <div class="col">
                     <h1>Consult Your Problem</h1>
                     <h4>The best place to consult about law</h4>
                     <h4>and get professional legal services.</h4>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Registration Now</a>
+                    <a class="btn btn-primary btn-lg" href="http://127.0.0.1:8000/registrasi" role="button">Registration Now</a>
                 </div>
                 <div class="col">
                     <img src="assets/img/home2.png" class="card-img-top" alt="home">
@@ -88,7 +88,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="assets/img/hpublik.jpg" class="card-img-top" alt="Hukum Publik">
+                        <a href="http://127.0.0.1:8000/hkmpublik"><img src="assets/img/hpublik.jpg" class="card-img-top" alt="Hukum Publik"></a>
                         <div class="card-body">
                         <p class="card-text">Hukum Publik</p>
                         </div>
@@ -96,9 +96,9 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="assets/img/hprivat.jpg" class="card-img-top" alt="Hukum Privat" height="236px">
+                        <a href="http://127.0.0.1:8000/hkmprivat"><img src="assets/img/hprivat.jpg" class="card-img-top" alt="Hukum Privat" height="236px"></a>
                         <div class="card-body">
-                        <p class="card-text">Hukum Privat</p>
+                        <p>Hukum Privat</p>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
     <!-- End Category -->
 
     <!-- About -->
-    <section id="about">
+    <section id="tentang">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col">
@@ -169,7 +169,7 @@
     <!-- End Testimonials -->
 
     <!-- ======= Footer ======= -->
-    <footer class="footer">
+    <footer class="footer" id="kontak">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-5 mb-3">
