@@ -1,221 +1,212 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Legal Literacy</title>
-</head>
-<body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container d-flex justify-content-between">
-            <div class="logo">
-                <a href="welcomeLL.blade.php">
-                    <h1><img src="assets\img\logo.png" alt="Legal Literacy" width="60"> Legal Literacy</h1></a>
-            </div>
-        
-        <!-- navbar -->
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li>
-                    <a class="nav-link scroll active" href="#kategori">Kategori</a>
-                </li>
-                <li>
-                    <a class="nav-link scroll active" href="#about">Tentang kami</a>
-                </li>
-                <li>
-                    <a class="nav-link scroll active" href="#testimoni">Testimoni</a>
-                </li>
-            </ul>
-        </nav>
-        </div>
-    </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Legal Literasi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
 
-    <!-- ======= Home ======= -->
-    <section id="Home" class="clearfix">
-        <div class="container aos-init-animate" data-aos="fade-up">
-            <div class="home-image aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
-                <img src="assets\img\home.png" alt class="img-fluid">
-            </div>
-            <div class="home-info aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                <h2>
-                    "We provide"
-                    <br>
-                    <span><u>solutions</u></span>
-                    <br>
-                    "For your legal problems!"
-                </h2>   
-                <div>
-                    <a href="#gaskeun" class="btn-get-started scrollto">Get Started</a>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container">
+          <a class="navbar-brand" href="#">Legal Literacy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Hukum Publik</a></li>
+                  <li><a class="dropdown-item" href="#">Hukum Privat</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Login
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Login as Pengguna</a></li>
+                  <li><a class="dropdown-item" href="#">Login as Konsultan</a></li>
+                </ul>
+              </li>
+              {{-- <li class="nav-item">
+                <a class="nav-link" href="#">Logout</a>
+              </li> --}}
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron">
+        <div class="container text-xl-center mb-3">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h1>Consult Your Problem</h1>
+                    <h4>The best place to consult about law</h4>
+                    <h4>and get professional legal services.</h4>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Registration Now</a>
+                </div>
+                <div class="col">
+                    <img src="assets/img/home2.png" class="card-img-top" alt="home">
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- ======= Main ======= -->
-    <main id="main">
-        <!-- ======= Kategori ======= -->
-        <section id="kategori">
-            <div class="container aos-init aos-animate" data-aos="fade-up">
-                <header class="section-header">
-                    <h3>Kategori</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate quasi incidunt error eos ullam unde modi sequi excepturi temporibus odio accusamus expedita ratione nulla cum nihil nisi, ad assumenda.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nam aliquam velit quia iste eius expedita possimus corrupti, tempora deleniti, reprehenderit esse aperiam similique doloribus officiis libero, non quos beatae?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos esse laudantium necessitatibus laboriosam, minus accusantium sapiente eaque sed nihil odit, eos, repellat eveniet consequuntur neque magni soluta exercitationem. Ab.
-                    </p>
-                    <br><br><br><br><br><br><br><br><br><br><br>
-                </header>
+    <!-- End Jumbotron -->
+    
+    <!-- Category -->
+    <section id="category">
+        <div class="container text-xl-center mb-3">
+            <div class="row">
+                <div class="col">
+                    <h2>Category</h2>
+                </div>
             </div>
-        </section>
-
-        <!-- ======= About ======= -->
-        <section id="about">
-            <div class="container aos-init aos-animate" data-aos="fade-up">
-                <header class="section-header">
-                    <h3>Tentang Kami</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate quasi incidunt error eos ullam unde modi sequi excepturi temporibus odio accusamus expedita ratione nulla cum nihil nisi, ad assumenda.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nam aliquam velit quia iste eius expedita possimus corrupti, tempora deleniti, reprehenderit esse aperiam similique doloribus officiis libero, non quos beatae?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos esse laudantium necessitatibus laboriosam, minus accusantium sapiente eaque sed nihil odit, eos, repellat eveniet consequuntur neque magni soluta exercitationem. Ab.
-                    </p>
-                    <br><br><br><br><br><br><br><br><br><br><br>
-                </header>
-            </div>
-        </section>
-
-        <!-- ======= Testimoni ======= -->
-        <section id="testimoni">
-            <div class="container aos-init aos-animate" data-aos="fade-up">
-                <header class="section-header">
-                    <h3>Testimoni</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate quasi incidunt error eos ullam unde modi sequi excepturi temporibus odio accusamus expedita ratione nulla cum nihil nisi, ad assumenda.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nam aliquam velit quia iste eius expedita possimus corrupti, tempora deleniti, reprehenderit esse aperiam similique doloribus officiis libero, non quos beatae?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos esse laudantium necessitatibus laboriosam, minus accusantium sapiente eaque sed nihil odit, eos, repellat eveniet consequuntur neque magni soluta exercitationem. Ab.
-                    </p>
-                    <br><br><br><br><br><br><br><br><br><br><br>
-                </header>
-            </div>
-        </section>
-
-        <!-- ======= Get Started ======= -->
-        <section id="gaskeun">
-            <div class="container aos-init aos-animate" data-aos="fade-up">
-                <header class="section-header">
-                    <h3>Get Started</h3>
-                    <a><img src="assets\img\registrasi.png" alt="registrasi" width="25%"></a>
-                    <a><img src="assets\img\login.png" alt="login" width="39%"></a>
-                </header>
-            </div>
-        </section>
-    </main>
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Beranda</a>
-                            </li> 
-                            <li>
-                                <a href="#">Kategori</a>
-                            </li>    
-                            <li>
-                                <a href="#">Tentang Kami</a>
-                            </li>
-                            <li>
-                                <a href="#">Testimoni</a>
-                            </li> 
-                            <li>
-                                <a href="#">Get Started</a>
-                            </li>  
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h4>Contact Us</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam amet natus voluptate corporis, impedit expedita vero harum suscipit voluptatem quis repellendus nisi alias? Accusantium odio sit mollitia sapiente totam culpa.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sapiente maiores et provident maxime aut voluptatibus. Voluptates ut, itaque quaerat modi est consectetur aspernatur nostrum, delectus, odit nemo neque? Ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus aut repellendus, amet minima tempore adipisci aliquam maxime temporibus quos id ab soluta, iusto aperiam vel neque quod tenetur deserunt veniam?
-                        </p>
-                        <div class="social-links">
-                            <a href="#" class="twitter">
-                                <i class="bi bi-twitter">
-                                    ::before
-                                </i>
-                            </a>
-                            <a href="#" class="facebook">
-                                <i class="bi bi-facebook">
-                                    ::before
-                                </i>
-                            </a>
-                            <a href="#" class="instagram">
-                                <i class="bi bi-instagram">
-                                    ::before
-                                </i>
-                            </a>
-                            <a href="#" class="linkedin">
-                                <i class="bi bi-linkedin">
-                                    ::before
-                                </i>
-                            </a>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/hpublik.jpg" class="card-img-top" alt="Hukum Publik">
+                        <div class="card-body">
+                        <p class="card-text">Hukum Publik</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 footer-newsletter">
-                        <h4>Our Newsletter</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officiis iste sunt? Minima excepturi cupiditate, tempore eveniet sit aliquid saepe, ipsum modi consequatur eaque rem eos animi veniam qui perferendis!
-                        </p>
-                        <form action method="post">
-                            <input type="email" name="email">
-                            <input type="submit" value="Subscribe">
-                        </form>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/hprivat.jpg" class="card-img-top" alt="Hukum Privat" height="236px">
+                        <div class="card-body">
+                        <p class="card-text">Hukum Privat</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- End Category -->
+
+    <!-- About -->
+    <section id="about">
         <div class="container">
-            <div class="copyright">
-                " @ copyright "
-                <strong>Legal Literacy</strong>
-                ". All Right Reversed "
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>About Us</h2>
+                    <p>The best place to consult about law and get professional legal services.</p>
+                </div>
             </div>
-            <div class="credits">
-                <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam laboriosam ipsum eos aut est similique fuga aliquid fugiat quas, obcaecati eum rem, cum voluptates debitis alias veniam? Ad, culpa possimus? -->
-                " Designed by"
-                ".........."
-                {{-- <a href="https://bootstrapmade.com/">BootstrapMade</a> --}}
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <img src="assets/img/about.jpeg" alt="about" width="370px">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="row">
+                        <div>
+                            <h6>Get web developer insight</h6>
+                            <p>Great for lead generation, selling products, portfolios, events, and more.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <h6>get certificate</h6>
+                            <p>get a nationally licensed certificate..</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <h6>become a professional web developer</h6>
+                            <p>get new relationships and learn together to become a professional web developer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Testimonials -->
+    <section id="testimoni">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Don't take our word for it</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <p>orang 1</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <p>orang 2</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <p>orang 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- ======= Footer ======= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-3">
+                    <h4>Subsribe to our newlestter.</h4>
+                    <p>Get the lastest news in your inbox.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <form>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Type your email here">
+                    </form>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <form>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-md-4 mb-3">
+                    <p>We must be legally literate!</p> 
+                    <p>because every aspect of life is governed by law</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <p>Contact Us</p>
+                    <p>LegalLiteracy@gmail.com</p>
+                    <p>Jalan A. Yani 2022, Surabaya</p>
+                    <p>+1234567890</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <p>© 2022 Copyright, All Right Reserved. Made by LegalLiteracy Coorporation</p>
             </div>
         </div>
     </footer>
+    <!-- end footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i>
-        <i class="bi bi-arrow-up-short">
-        ::before
-        </i>
-    </a>
-
-</body>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
 </html>
