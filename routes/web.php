@@ -13,27 +13,34 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', function () {
-    return view('welcomeLL');
+    return view('main');
 });
 
-Route::get('/registrasi', function () {
-    return view('registrasi');
+Route::get('/login-page.blade.php', function () {
+    return view('login-page');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/about.blade.php', function () {
+    return view('about');
 });
 
-Route::get('/hkmpublik', function () {
-    return view('hkmpublik');
+Route::get('/contact.blade.php', function () {
+    return view('contact');
 });
 
-Route::get('/hkmprivat', function () {
-    return view('hkmprivat');
+Route::get('/one-page.blade.php', function () {
+    return view('one-page');
 });
 
+Route::get('/services.blade.php', function () {
+    return view('services');
+});
+
+Route::get('/signup-page.blade.php', function () {
+    return view('signup-page');
+});
+
+Route::get('/user-page.blade.php', function () {
+    return view('user-page');
+});
